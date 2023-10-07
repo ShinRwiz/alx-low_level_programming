@@ -1,9 +1,10 @@
 #include <stdio.h>
 
+
 /**
- * main -
- * Description
- * Return:
+ * main - Entry point
+ * Description: 2-
+ * Return: Always O (Success)
  */
 int main(void)
 {
