@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /*
- * comment
+ * main - random number maybe related to time
+ * Return: Always 0 (Success) 
  */
 int main(void)
 {
