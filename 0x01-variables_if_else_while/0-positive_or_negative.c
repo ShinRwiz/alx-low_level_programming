@@ -2,10 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - random number maybe related to time
- * Return: Always 0 (Success) 
- */
+/**
+ * main - Entry point
+ * Description: print == positive or negative  or zero
+ * Return: Always 0 (Success)
+*/
+
+
 int main(void)
 {
 	int n;
