@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Description: -
+ * print_sign - Entry point
+ * @n: num
  * Return: Always O (Success)
  */
- int print_sign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{

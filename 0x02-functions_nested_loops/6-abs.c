@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Description: -
+ * _abs - Entry point
+ * @n: num
  * Return: Always O (Success)
  */
- int _abs(int n)
+int _abs(int n)
 {
 	if (n >= 0)
 		return (n);

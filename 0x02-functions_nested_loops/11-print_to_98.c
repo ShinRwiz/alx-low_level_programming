@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Description: -
+ * print_to_98 - Entry point
+ * @n: num
  * Return: Always O (Success)
  */
- void print_to_98(int n)
+void print_to_98(int n)
 {
 	if (n == 98)
 	{

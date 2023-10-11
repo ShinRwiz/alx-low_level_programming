@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * times_table - Entry point
  * Description: -
  * Return: Always O (Success)
  */
- void times_table(void)
+void times_table(void)
 {
 	int r, c, p;
 

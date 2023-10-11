@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet_x10 - Entry point
  * Description: -
  * Return: Always O (Success)
  */
- void print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	int cnt = 0;
 	char letter;

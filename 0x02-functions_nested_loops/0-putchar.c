@@ -5,7 +5,7 @@
  * Description: -
  * Return: Always O (Success)
  */
- int main(void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');

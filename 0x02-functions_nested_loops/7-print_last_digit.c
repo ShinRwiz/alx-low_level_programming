@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Description: -
+ * print_last_digit - Entry point
+ * @n: num
  * Return: Always O (Success)
  */
- int print_last_digit(int n)
+int print_last_digit(int n)
 {
 	int nb = n % 10;
 

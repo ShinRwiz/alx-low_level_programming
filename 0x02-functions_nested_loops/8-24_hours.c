@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * jack_bauer - Entry point
  * Description: -
  * Return: Always O (Success)
  */
- void jack_bauer(void)
+void jack_bauer(void)
 {
 	int hr, min;
 

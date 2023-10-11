@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Description: -
+ * _islower - Entry point
+ * @c: num
  * Return: Always O (Success)
  */
- int _islower(int c)
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);
