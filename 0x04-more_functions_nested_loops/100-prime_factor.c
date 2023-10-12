@@ -6,8 +6,11 @@
  */
 int main(void)
 {
-	unsigned long int i = 2;
-	unsigned long int n = 612852475143;
+	unsigned long int i;
+	unsigned long int n;
+
+	i = 2;
+	n = 612852475143;
 
 	while (n > 1)
 	{
@@ -19,5 +22,5 @@ int main(void)
 		i++;
 	}
 	printf("%d\n", i);
-	return (i);
+	return (0);
 }
