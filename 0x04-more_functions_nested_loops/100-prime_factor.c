@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+#include "main.h"
 /**
  * main --
  * Return: --
@@ -18,5 +18,6 @@ int main(void)
 	else
 		i++;
 	}
+	printf("%d\n", i);
 	return (i);
 }
