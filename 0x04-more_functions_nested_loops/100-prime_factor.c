@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	int i = 2;
-	int n = 612852475143;
+	unsigned long int i = 2;
+	unsigned long int n = 612852475143;
 
 	while (n > 1)
 	{
