@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * main --
  * Return: --
@@ -21,6 +20,6 @@ int main(void)
 	else
 		i++;
 	}
-	printf("%d\n", i);
+	printf("%lu\n", i);
 	return (0);
 }
