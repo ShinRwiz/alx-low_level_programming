@@ -1,11 +1,12 @@
 #include "main.h"
 /**
  *print_most_numbers --
+ *@n: --
  *Return: --
  */
 void print_most_numbers(void)
 {
-	int n
+	int n;
 
 	for (n = 0; n <= 9; n++)
 	{
