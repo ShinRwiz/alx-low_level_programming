@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  *print_most_numbers --
- *@n: --
  *Return: --
  */
 void print_most_numbers(void)
