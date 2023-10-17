@@ -6,12 +6,11 @@
  */
 void print_rev(char *s)
 {
-	int i;
-	int n;
+	int i, n;
 
-	while (s[i] != '\0')
+	while (s[n] != '\0')
 	{
-		i++;
+		n++;
 	}
 	for (i = n - 1; i >= 0; i--)
 	{
