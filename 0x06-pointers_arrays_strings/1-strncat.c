@@ -8,17 +8,18 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int t = 0;
+	int t = 0, c = 0;
 
-	while (src[t] != '\0' && t < n)
-	{
-		dest[t] = src[t];
+	while (dest[t] != '\0')
 		t++;
-	}
-	while (t < n)
+	while (src[c] != '\0' && c < n)
 	{
-		dest[t] = '\0';
+		dest[t] = src[c];
 		t++;
+		c++;
 	}
+
+	dest[t] = '\0';
+
 	return (dest);
 }
