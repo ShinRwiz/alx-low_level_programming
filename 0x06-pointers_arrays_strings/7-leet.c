@@ -6,21 +6,21 @@
  */
 char *leet(char *s)
 {
-	char *p = s;
+	int i, j;
 	char array1[] = "aAeEoOtTlL";
 	char array2[] = "44370171";
-	int i;
 
-	for (; *p != '\0'; p++)
+	for (i = 0; s[i]; i++)
 	{
-		for (i = 0; array1[i] != '\0'; i++)
+		for (j = 0; array1[j]; j++)
 		{
-			if (*p == array1[i])
+			if (s[i] == array1[j])
 			{
-				*p = array2[i];
+				s[i] = array2[j];
 				break;
 			}
 		}
 	}
 	return (s);
 }
+
