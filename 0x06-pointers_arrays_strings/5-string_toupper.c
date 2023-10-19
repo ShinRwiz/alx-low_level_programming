@@ -13,7 +13,7 @@ char *string_toupper(char *s)
 
 	while (*ptr)
 	{
-		for (int i = 0; array1[i]; i++)
+		for (i = 0; array1[i]; i++)
 		{
 			if (*ptr == array1[i])
 			{
