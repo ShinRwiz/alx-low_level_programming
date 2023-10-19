@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * leet --
- * @: --
+ * @s: --
  * Return: --
  */
 char *leet(char *s)
