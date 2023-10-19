@@ -8,7 +8,7 @@ char *string_toupper(char *s)
 {
 	char array1[] = "abcdefghijklmnopqrstuvwxyz";
 	char array2[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char *ptr = str;
+	char *ptr = s;
 	int i;
 
 	while (*ptr)
