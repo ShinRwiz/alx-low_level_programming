@@ -12,12 +12,11 @@ char *leet(char *s)
 
 	for (i = 0; s[i]; i++)
 	{
-		for (j = 0; array1[j]; j++)
+		for (j = 0; j < 10; j++)
 		{
 			if (s[i] == array1[j])
 			{
 				s[i] = array2[j];
-				break;
 			}
 		}
 	}
