@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncpy --
+ * _strncat --
  * @dest: --
  * @src: --
  * @n: --
@@ -12,6 +12,7 @@ char *_strncpy(char *dest, char *src, int n)
 
 	while (dest[t] != '\0')
 		t++;
+		
 	while (src[c] != '\0' && c < n)
 	{
 		dest[t] = src[c];
