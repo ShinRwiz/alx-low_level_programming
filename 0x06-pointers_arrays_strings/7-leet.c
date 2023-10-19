@@ -17,7 +17,6 @@ char *leet(char *s)
 			if (s[i] == array1[j])
 			{
 				s[i] = array2[j];
-				break;
 			}
 		}
 	}
