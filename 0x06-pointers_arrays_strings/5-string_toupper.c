@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * string_toupper --
- * @str: --
+ * @s: --
  * Return: --
  */
-char *string_toupper(char *str)
+char *string_toupper(char *s)
 {
 	char array1[] = "abcdefghijklmnopqrstuvwxyz";
 	char array2[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -23,5 +23,5 @@ char *string_toupper(char *str)
 		}
 			ptr++;
 	}
-	return (str);
+	return (s);
 }
