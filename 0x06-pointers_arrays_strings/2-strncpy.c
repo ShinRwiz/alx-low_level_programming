@@ -1,7 +1,12 @@
 #include "main.h"
 /**
- * reset_to_98 --
+ * _strncpy --
+ * @dest: --
+ * @src: --
  * @n: --
  * Return: --
  */
+char *_strncpy(char *dest, char *src, int n)
+{
 
+}
