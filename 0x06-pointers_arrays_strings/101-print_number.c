@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * reset_to_98 --
+ * print_number --
  * @n: --
  * Return: --
  */
