@@ -1,17 +1,11 @@
 #include "main.h"
 /**
- * infinite_add --
- * @n1: --
- * @n2: --
- * @r: --
- * @size_r: --
+ * reset_to_98 --
+ * @n: --
  * Return: --
  */
-char *infinite_add(char *n1, char *n2, char *r, int size_r)
-{
-	int num1, num2, sum, carry = 0;
-	int i = 0, j = 0, k = 0;
 
+<<<<<<< HEAD
 	while (n1[i] != '\0' || n2[j] != '\0' || carry)
 	{
 		num1 = (n1[i] != '\0') ? n1[i] - '0' : 0;
@@ -58,3 +52,5 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	r[k] = '\0';
 	return (r);
 }
+=======
+>>>>>>> parent of bb56b73 (suffering)
