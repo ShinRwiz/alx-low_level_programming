@@ -25,7 +25,7 @@ int comparer(char *s, int i, int j)
 	if (s[i] != s[j])
 		return (0);
 
-	return  (comparer(s, i + 1,  j  - 1));
+	return (comparer(s, i + 1,  j  - 1));
 }
 /**
  * is_palindrome --
@@ -34,7 +34,7 @@ int comparer(char *s, int i, int j)
  */
 int is_palindrome(char *s)
 {
-	int size = sizer(char s);
+	int size = sizer(s);
 
 	return (comparer(s, 0, size - 1));
 }
