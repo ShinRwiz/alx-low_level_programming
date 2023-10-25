@@ -1,5 +1,16 @@
 #include "main.h"
 /**
+ * sizer --
+ * @s: --
+ * Return: --
+ */
+int sizer(char *s)
+{
+	if (*s == '\0')
+		return (0);
+	return (1 + sizer(s + 1));
+}
+/**
  * comparer --
  * @s: --
  * @i: --
@@ -23,10 +34,7 @@ int comparer(char *s, int i, int j)
  */
 int is_palindrome(char *s)
 {
-	int size = 0;
-
-	while (s[size] != '\0')
-		size++;
+	int size = sizer;
 
 	return (comparer(s, 0, size - 1));
 }
