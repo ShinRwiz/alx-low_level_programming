@@ -34,7 +34,7 @@ int comparer(char *s, int i, int j)
  */
 int is_palindrome(char *s)
 {
-	int size = sizer;
+	int size = sizer(char s);
 
 	return (comparer(s, 0, size - 1));
 }
