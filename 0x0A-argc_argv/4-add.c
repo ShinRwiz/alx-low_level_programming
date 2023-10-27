@@ -11,9 +11,9 @@ int main(int argc, char *argv[])
 	int a = 0;
 	char *b;
 
-	while (--argc)
+	while (--argc > 0)
 	{
-		for (b = argv[argc]; *c; c++)
+		for (b = argv[argc]; *b !=  '\0'; b++)
 			if (*b < '0' || *b > '9')
 			{
 				return (printf("Error\n"), 1);
