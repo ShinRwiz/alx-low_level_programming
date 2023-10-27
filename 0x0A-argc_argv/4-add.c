@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	{
 		for (b = argv[argc]; *c; c++)
 			if (*c < '0' || *c > '9')
-				return (printf("Error\n"));
+				return (printf("Error\n"), 1);
 			a += atoi(argv[argc]);
 	}
 	printf("%d\n", a);
