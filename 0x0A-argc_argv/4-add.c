@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
 /**
  * main --
  * @argc: --
@@ -14,11 +14,13 @@ int main(int argc, char *argv[])
 	while (--argc > 0)
 	{
 		for (b = argv[argc]; *b != '\0'; b++)
+		{
 			if (*b < '0' || *b > '9')
 			{
 				return (printf("Error\n"), 1);
 			}
 			a += atoi(argv[argc]);
+		}
 	}
 	printf("%d\n", a);
 	return (0);
