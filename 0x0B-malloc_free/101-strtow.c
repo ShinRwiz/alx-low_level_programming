@@ -70,5 +70,6 @@ char **strtow(char *str)
 		else
 			i++;
 	}
+	str[i] = NULL
 	return (s);
 }
