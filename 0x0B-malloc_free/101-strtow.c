@@ -37,7 +37,7 @@ char **strtow(char *str)
 
 	n = wc(str);
 	if (n == 1)
-		return(NULL);
+		return (NULL);
 
 	s = (char **)malloc(n * sizeof(char *));
 	if (s == NULL)
