@@ -39,7 +39,7 @@ char **strtow(char *str)
 	if (n == 1)
 		return (NULL);
 
-	s = (char **)malloc(n * sizeof(char *));
+	s = malloc((n + 1) * sizeof(char *));
 	if (s == NULL)
 		return (NULL);
 
