@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * alloc_grid --
- * @argc: --
- * @argv: --
+ * @width: --
+ * @height: --
  * Return: --
  */
 int **alloc_grid(int width, int height)
