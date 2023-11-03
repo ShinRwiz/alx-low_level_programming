@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 	
 	if (argc != 3)
 	{
-		_puts("Error")
+		_puts("Error");
 		exit(98);
 	}
 	return (0);
