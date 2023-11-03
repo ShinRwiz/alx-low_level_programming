@@ -1,9 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * create_array --
- * @size: --
- * @c: --
+ * main --
+ * @argc: --
+ * @argv: --
  * Return: --
  */
-
+int main(int argc, char *argv[])
+{
+	return (0);
+}
