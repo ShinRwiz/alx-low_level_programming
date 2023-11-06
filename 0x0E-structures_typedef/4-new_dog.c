@@ -1,4 +1,5 @@
 #include "dog.h"
+#include <stdlib.h>
 /**
  * new_dog -- make  a new dogo
  * @name: --
