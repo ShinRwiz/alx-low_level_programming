@@ -7,6 +7,7 @@
  * @age: --
  * @owner: --
  */
+ 
 struct dog
 {
 	char *name;
