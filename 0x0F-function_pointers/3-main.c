@@ -31,6 +31,6 @@ int main(int argc, char **argv)
 		printf("Error\n"), exit(100);
 	}
 
-	printf("%d\n", get_op_func(opf)(n1, n2));
+	printf("%d\n", opf(n1, n2));
 	return (0);
 }
