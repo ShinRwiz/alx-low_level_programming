@@ -1,8 +1,16 @@
 #include "lists.h"
 /**
- * add_node --
+ * free_list --
  * @head: --
- * @str: --
  * Return: --
  */
-
+void free_list(list_t *head)
+{
+	if (head)
+	{
+		free_list(head->next);
+		if (head->str)
+			free(head->str);
+		free(head);
+	}
+}
