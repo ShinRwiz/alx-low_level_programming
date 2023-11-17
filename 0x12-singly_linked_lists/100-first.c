@@ -1,7 +1,8 @@
 #include "lists.h"
 /**
- * print_list --
- * @h: --
+ * add_node --
+ * @head: --
+ * @str: --
  * Return: --
-*/
+ */
 
