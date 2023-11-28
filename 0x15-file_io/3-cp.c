@@ -11,7 +11,7 @@ int main(int argc, char **argv)
 	char buffer[1024];
 
 	if (argc != 3)
-		dprintf(2, "Usage: %s file_from file_to\n", argv[0]), exit(97);
+		dprintf(2, "Usage: cp file_from file_to\n"), exit(97);
 
 	from = open(argv[1], O_RDONLY);
 	if (from == -1)
