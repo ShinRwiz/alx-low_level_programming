@@ -29,8 +29,9 @@ int main(int argc, char **argv)
 	close(from);
 	close(to);
 	if (close(from) == -1)
+	{
 		dprintf(2, "Error: Can't close fd %d\n", from), exit(100);
-
+	}
 	if (close(to) == -1)
 		dprintf(2, "Error: Can't close fd %d\n", to), exit(100);
 	return (0);
