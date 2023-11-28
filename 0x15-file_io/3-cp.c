@@ -42,5 +42,6 @@ int main(int argc, char **argv)
 
 	if (close(to) == -1)
 		dprintf(2, "Error: Can't close fd %d\n", to), exit(100);
+	free(buffer);
 	return (0);
 }
