@@ -15,11 +15,11 @@ int main(int argc, char **argv)
 
 	from = open(argv[1], O_RDONLY);
 	if (from == -1)
-		dprintf(2, "Error: Can't read from file %s\n", argv[1]), exit(98);
+		dprintf(2, "0Error: Can't read from file %s\n", argv[1]), exit(98);
 
 	to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	if (to == -1)
-		dprintf(2, "0Error: Can't write to %s\n", argv[2]), close(from), exit(99);
+		dprintf(2, "Error: Can't write to %s\n", argv[2]), close(from), exit(99);
 
 	while ((r = read(from, buffer, 1024)) > 0)
 	{
