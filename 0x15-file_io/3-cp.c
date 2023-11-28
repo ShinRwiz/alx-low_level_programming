@@ -21,21 +21,21 @@ int main(int argc, char **argv)
 	if (to == -1)
 	dprintf(2, "Error: Can't write to %s\n", argv[2]), close(from), exit(99);
 
-	while (r > 0)
+	while ((r = read(from, buffer, 1024)) > 0)
 	{
-		r = read(from, buffer, 1024);
 		if (r == -1)
 		{
 			dprintf(2, "Error: Can't read from file %s\n", argv[1]);
 			close(from), close(to), exit(98);
-	}
+		}
+
 		w = write(to, buffer, r);
 		if (w == -1 || w != r)
 		{
-			dprintf(2, "Error: Can't write to %s\n", argv[2]), close(from);
-			close(to), exit(99);
+			dprintf(2, "Error: Can't write to %s\n", argv[2]);
+			close(from), close(to), exit(99);
 		}
-	};
+	}
 
 	if (close(from) == -1)
 	{
